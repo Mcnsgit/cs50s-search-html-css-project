@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="links">
+            <!-- Navigation links -->
+            <a href="advanced_search.html" id="advanced-search">Advanced Search</a>
+            <a href="image_search.html" id="image-search">Image Search</a>
+        </nav>
+    </header>
+    <main class="main-body">
+        <div class="logocontainer">
+                <div class="googlelogocontainer">
+                    <div class="googlelogo">
+                        <a href="index.html">
+                            <img src="img/googlelogo_color_272x92dp.png"
+                                alt="Google Logo" id="googlelogo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <form action="https://images.google.com/search" method="GET" class="mdc-card">
+            <!-- Image Search Form -->
+            <div class="searchbarcontainer">
+                <div class="searchbar">
+                    <input type="text" name="q" id="query" placeholder="Search for images" class="mdc-text-field">
+                </div>
+                <div class="searchbuttons">
+                    <button type="submit" class="mdc-button mdc-button--raised">Image Search</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
